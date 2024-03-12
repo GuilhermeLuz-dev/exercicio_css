@@ -1,3 +1,4 @@
+/* Configuração Geral */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -15,7 +16,18 @@ a {
 .container {
     width: 90%;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+.container>h2 {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Header */
+
 
 #header_page {
     width: 100vw;
@@ -46,11 +58,11 @@ a {
 }
 
 #link_sports {
-    color: rgb(49, 194, 49);
+    color: #31c231;
 }
 
 #link_economy {
-    color: rgb(196, 196, 41);
+    color: #c4c429;
 }
 
 #link_technology {
@@ -59,4 +71,22 @@ a {
 
 #link_entertainment {
     color: rgb(230, 69, 203);
+}
+
+/* Sections */
+#sports {
+    background-color: #31c23157;
+}
+
+#economy {
+    background-color: #c4c42981;
+}
+
+article {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+article img {
+    width: 100%;
 }
