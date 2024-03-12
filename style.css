@@ -74,8 +74,21 @@ a {
 }
 
 /* Sections */
+section h2 {
+    font-weight: bold;
+}
+
 #sports {
     background-color: #31c23157;
+}
+
+#sports h2,
+#sports h3 {
+    color: #31c231;
+}
+
+#sports a {
+    background-color: #31c231;
 }
 
 #economy {
@@ -89,4 +102,23 @@ article {
 
 article img {
     width: 100%;
+}
+
+article time {
+    color: gray;
+    font-size: small;
+}
+
+article h3 {
+    margin: 10px 0;
+}
+
+article p {
+    margin-bottom: 20px;
+}
+
+article a {
+    color: white;
+    padding: 8px;
+    font-weight: bold;
 }
