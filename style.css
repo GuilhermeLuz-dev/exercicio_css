@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+#header_page {
+    width: 100vw;
+    background-color: #d3d2d2;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+header nav ul li a {
+    color: black;
+    margin-left: 10px;
+}
