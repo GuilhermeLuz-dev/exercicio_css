@@ -19,24 +19,44 @@ a {
 
 #header_page {
     width: 100vw;
-    background-color: #d3d2d2;
+    background-color: #dad9d9;
 
 }
 
-header .container {
+#header_page .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 15px;
 }
 
-header nav ul {
+#header_page nav ul {
     display: flex;
     list-style: none;
 
 }
 
-header nav ul li a {
-    color: black;
-    margin-left: 10px;
+#header_page h1 {
+    color: rgb(182, 34, 34);
+}
+
+#header_page nav ul li a {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+#link_sports {
+    color: rgb(49, 194, 49);
+}
+
+#link_economy {
+    color: rgb(196, 196, 41);
+}
+
+#link_technology {
+    color: rgb(40, 40, 228);
+}
+
+#link_entertainment {
+    color: rgb(230, 69, 203);
 }
