@@ -8,6 +8,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 a {
     text-decoration: none;
@@ -30,7 +33,9 @@ a {
 
 
 #header_page {
-    width: 100vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #dad9d9;
 
 }
@@ -66,15 +71,51 @@ a {
 }
 
 #link_technology {
-    color: rgb(40, 40, 228);
+    color: #2828e4;
 }
 
 #link_entertainment {
-    color: rgb(230, 69, 203);
+    color: #e645cb;
 }
 
 /* Sections */
+section {
+    padding-top: 60px;
+}
+
 section h2 {
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+article {
+    width: 30%;
+    margin-bottom: 35px;
+}
+
+article img {
+    width: 100%;
+}
+
+article time {
+    color: gray;
+    font-size: small;
+}
+
+article h3 {
+    margin: 10px 0;
+    line-height: 22px;
+
+}
+
+article p {
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+article a {
+    color: white;
+    padding: 8px;
     font-weight: bold;
 }
 
@@ -92,33 +133,41 @@ section h2 {
 }
 
 #economy {
-    background-color: #c4c42981;
+    background-color: #f5f5045b;
 }
 
-article {
-    width: 30%;
-    margin-bottom: 20px;
+
+#economy h2,
+#economy h3 {
+    color: #c5c52b;
 }
 
-article img {
-    width: 100%;
+#economy a {
+    background-color: #d3d32c;
 }
 
-article time {
-    color: gray;
-    font-size: small;
+#technology {
+    background-color: rgba(0, 0, 255, 0.267);
 }
 
-article h3 {
-    margin: 10px 0;
+#technology h2,
+#technology h3 {
+    color: #2828e4;
 }
 
-article p {
-    margin-bottom: 20px;
+#technology a {
+    background-color: #2828e4;
 }
 
-article a {
-    color: white;
-    padding: 8px;
-    font-weight: bold;
+#entertainment {
+    background-color: #e645cb4d;
+}
+
+#entertainment h2,
+#entertainment h3 {
+    color: #e645cb;
+}
+
+#entertainment a {
+    background-color: #e645cb;
 }
